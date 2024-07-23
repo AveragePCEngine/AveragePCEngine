@@ -1,23 +1,28 @@
-# Friday Night Funkin' - Psych Engine
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+# Friday Night Funkin' - Average PC Engine (Modified Psych Engine)
 
 ## Installation:
-
-Refer to [the Build Instructions](./BUILDING.md)
+Download it from releases and there you go.
 
 ## Customization:
 
 if you wish to disable things like *Lua Scripts* or *Video Cutscenes*, you can read over to `Project.xml`
 
-inside `Project.xml`, you will find several variables to customize Psych Engine to your liking
+inside `Project.xml`, you will find several variables to mod the game.
 
 to start you off, disabling Videos should be simple, simply Delete the line `"VIDEOS_ALLOWED"` or comment it out by wrapping the line in XML-like comments, like this `<!-- YOUR_LINE_HERE -->`
 
 same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, this and other customization options are all available within the `Project.xml` file
 
+To do that, either download all the resources or get source code from releases.
+
 ## Credits:
-* Shadow Mario - Programmer
+* Shadow Mario - Psych Engine
 * Riveren - Artist
+* Average PC
+* Zack
+* Vinh
+* Teesh
+* User0
 
 ### Special Thanks
 * bbpanzu - Ex-Programmer
@@ -65,6 +70,9 @@ _____________________________________
 ### Week 6:
   * On Thorns, the HUD is hidden during the cutscene
   * Also there's the Background girls being spooky during the "Hey!" parts of the Instrumental
+### Week 7:
+Shadow mario forgot. Oh well.
+  * Optimized down most of the Week 7 files.
 
 ## Cool new Chart Editor changes and countless bug fixes
 ![](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/docs/img/chart.png?raw=true)
